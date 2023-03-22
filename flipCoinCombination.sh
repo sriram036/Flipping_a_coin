@@ -1,4 +1,10 @@
 #!/bin/bash
+
+declare -A flipping_coin;
+flipping_coin["Zero"]="Heads";
+flipping_coin["One"]="Tails"
+
+
 num_1=1
 num=$((RANDOM%2))
 
